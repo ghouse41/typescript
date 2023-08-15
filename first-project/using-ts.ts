@@ -2,7 +2,7 @@ const button = document.querySelector("button") as HTMLButtonElement
 const input1 = document.getElementById("num1") as HTMLInputElement;
 const input2 = document.getElementById("num2") as HTMLInputElement;
 
-function add(num1: String, num2: String) {
+function add(num1: string, num2: string) {
   return +num1 + +num2;
 }
 
